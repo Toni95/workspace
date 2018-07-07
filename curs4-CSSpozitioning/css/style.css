@@ -1,0 +1,71 @@
+.parent-box {
+    width: 700px;
+    border: 1px solid;
+}
+
+.pull-left{
+    float: left;
+    
+}
+
+.pull-right{
+    float: right;
+}
+
+.clearfix::after {
+    clear: both;
+    content: ' ';
+    display: block;
+}
+
+.pull-center {
+    text-align: center;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border: solid 1px red;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-absolute.box-1 {
+    left: 0;
+    top: 0;
+}
+
+.position-absolute.box-2 {
+    top: 0;
+    right: 0;
+}
+
+.position-absolute.box-3 {
+    bottom: 0;
+    left: 0;
+}
+
+.position-absolute.box-4 {
+    bottom: 0;
+    right: 0;
+}
+
+.position-absolute.box-5 {
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+}
+
+.position-fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+}

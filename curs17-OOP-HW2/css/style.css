@@ -1,0 +1,25 @@
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.btn btn-default {
+    padding: 15px;
+}
+
+.game-delete {
+    margin-bottom: 20px;
+}
+
+.game-title {
+    font-weight: bold;
+    font-size: 20px;
+}

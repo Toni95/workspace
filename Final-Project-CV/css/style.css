@@ -1,0 +1,82 @@
+body {
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+
+
+/*.navbar-inverse {*/
+/*    background-color: transparent;*/
+/*    border-color: transparent;*/
+/*}*/
+
+/*@media (min-width: 992px)*/
+/*#navbar-shrink {*/
+/*    border-bottom: 1px solid rgba(33,37,41,.1);*/
+/*    background-color: #fff;*/
+/*}*/
+
+#section1.container-fluid {
+    padding-top: 50px;
+    height:800px;
+    background-image: url('https://blackrockdigital.github.io/startbootstrap-creative/img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+#section2.container-fluid {
+    padding:100px;
+    height:400px;
+    color: #fff; 
+    background-color: #f05f40; 
+    text-align: center; 
+    width:100%;
+}
+  
+#section3 {
+    padding:100px;
+    height:400px;
+    color: #000;
+    background-color: #fff;
+    text-align: center; 
+    width:100%;
+}
+
+#section4 {
+    padding:100px;
+    height:400px;
+    color: #fff;
+    background-color: #000;
+    text-align: center; 
+    width:100%;
+}
+
+.section1-align{
+    padding: 100px;
+}
+
+.text-faded {
+    color: #e0e0df;
+}
+
+.text-primary {
+    color: #f05f40;
+}
+
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+
+.white {
+    border-color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}

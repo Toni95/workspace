@@ -1,0 +1,56 @@
+.container {
+	margin: auto;
+    width: 65%;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.pull-left {
+	float: left;
+	padding: 10px;
+
+}
+
+.pull-left-padding {
+	float: left;
+	padding-left: 100px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom; 10px
+
+}
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: ' ';
+}
+
+.btn-submit {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  padding: 10px 20px;
+  margin: 0;
+  border: 1px solid #5bc0de;
+  border-radius: 5px;
+  float: right;
+}
+
+.alert {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 15px;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: 65%;
+    margin-bottom: 20px;
+    font-weight: bold;
+	visibility: hidden;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}

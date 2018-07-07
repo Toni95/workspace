@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Intro</title>
+    </head>
+    <body>
+        <!--MENU-->
+        <div>
+            <ul type="none">
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="js.html">JS</a></li>
+            </ul>
+        </div>
+        
+        <!--CONTENT-->
+        <div>
+            <h1>HTML Intro</h1>
+            <p>Examples in Every Chapter. This HTML tutorial contains hundreds of HTML examples. With our online HTML editor, you can edit the HTML, and click on a button ...</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt="HTML Icon"/>        
+        </div>
+        
+        <!--LIST TABLE-->
+        <div>
+			<table border="1" align="center">
+				<tr>
+					<th>Name</th>					
+					<th>Job</th>					
+					<th colspan="2">Emails</th>	
+				</tr>
+				<tr>
+					<td>Anca</td>
+					<td>Dev</td>
+					<td>anca.balc@scoalainformala.ro</td>
+					<td>anca.balc@scoalainformala.ro</td>
+				</tr>
+				<tr>
+					<td>Mela</td>
+					<td>Dev</td>
+					<td>anca.balc@scoalainformala.ro</td>
+					<td>anca.balc@scoalainformala.ro</td>
+				</tr>
+			</table>
+		</div> 
+		
+		<br />
+		<br />
+		
+		<div>
+			<table border="1" align="center">
+				<tr>
+					<th>1</th>					
+					<th>2</th>
+					<th>3</th>					
+					<th>4</th>	
+				</tr>
+				<tr>
+					<td>5</td>
+					<td colspan="2">6</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>9</td>
+					<td rowspan="2">10</td>
+					<td>11</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>13</td>
+					<td>14</td>
+				</tr>
+			</table>
+		</div> 
+
+		<br />		
+        
+        <!--FORM-->
+        <div align="center">
+			<form action="index.html" method="GET">
+				<input type="text" name="search" />
+				<input type="text" name="test" />
+				<input type="submit" value="Search" />
+			</form>
+			
+			<br> <br>
+			
+			<form action="index.html" method="POST" />
+				<label>Name</label>
+				<input type="text" name="name"/>
+				<br>
+				<label>Description</label>
+				<textarea name="description"> </textarea>
+				<br>
+				<label>Gender</label>
+				<input type="radio" name="gender" value="F" /> F
+				<input type="radio" name="gender" value="M" /> M
+				<br>
+				<label>Course</label>
+				<select name="course">
+					<option>FrontEnd</option>
+					<option>Java</option>
+				</select>
+				
+				<input type="checkbox" name="accept"> Accept term and cond.
+				
+				<input type="submit" value="Save" />
+			</form>
+		</div>
+        
+    </body>
+</html>

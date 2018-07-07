@@ -1,0 +1,41 @@
+
+body {background-color: #fff;} 
+
+#imagine { position: absolute; z-index: -1; height: 995px;} 
+
+* { margin: 0; padding: 0; }
+
+a { color: white; text-decoration: none; }
+
+body {font-family: Arial, sans-serif; }
+
+.site-content { width: 1658px; margin: auto;}
+
+nav { width: 100%; height: 62px; overflow: hidden; }
+nav .logo { float: left; margin-left: 216px; font-size: 22px; margin-top: 19px; }
+nav .menu-right { float: left; margin-top: 22px; margin-left: 782px; font-size: 18px; }
+nav .menu-right li { list-style-type: none; display: inline-block; }
+nav .menu-right li a { color: #878e96; }
+nav .menu-right li:not(:first-child) { margin-left: 15px; }
+
+h1, h2 { display: inline-block; }
+h1 { margin-left: 216px; margin-top: 30px; font-size: 41px; }
+h2 { margin-left: 3px; margin-top: 30px; font-size: 32px; }
+
+.content { height: 1003px; margin-left: 216px; margin-right: 216px; margin-top: 26px; }
+.content article { display: inline-block; float: left; width: 281px; height: 484px; overflow: hidden; margin-left: 34px; outline: 1px solid #cccccc; }
+.content article:nth-of-type(4n-3) { margin-left: 0px; }
+.content article:nth-of-type(-n+4) { margin-bottom: 35px; }
+.content article .image { display: flex; height: 159px; }
+.content article .image span { margin: auto; font-size: 32px; letter-spacing: -1px; color: #878e96; }
+.content article h3 a, .content article p { margin-left: 22px; margin-right: 22px; word-wrap: break-word; overflow: hidden; }
+.content article h3 a { display: block; margin-top: 22px; font-size: 30px; font-weight: 300; letter-spacing: -2px; height: 33px; color: #037bfd; min-width: 200px; }
+.content article p { margin-top: 9px; line-height: 27px; font-size: 19px; height: 240px; }
+.content article h3, a { font-weight: bold; }
+
+nav .menu-right li a:hover { color: white; }
+nav .menu-right li .active { color: white; font-weight: bold; }
+
+.site-content { background-color: white; }
+nav { background-color: #353a40; }
+.content article .image { background-color: #cccccc; }

@@ -1,0 +1,39 @@
+h1 {
+    color: red;
+}
+
+#navbar {
+    background-color: grey;
+}
+
+.selector-container{
+    border: solid 1px blue;
+}
+
+* {
+    font-family: Arial;
+}
+#container {
+    background-color: gray;
+}
+
+.red, span{
+    color: red;
+}
+
+a {
+    color: blue;
+}
+
+div span {
+    color: green;
+}
+
+div > span {
+    color: purple;
+}
+
+div + p {
+    color: orange;
+}
+

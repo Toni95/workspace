@@ -1,0 +1,95 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+	background-color: #fff;
+	margin: 0 !important;
+}
+
+
+h1,h2,h3,h4,p {
+	padding-left: 20px;
+	padding-bottom: 0px;
+}
+
+ul{
+	 list-style-type: none;
+	 padding-left: 20px;
+	 padding-bottom: 5px;
+}
+
+img {
+	float: left;
+	padding-right: 20px;
+	padding-left: 30px;
+}
+.logo-bar {
+	background-color: #333333;
+    padding: 20px;
+	color: #fff;
+	font-size: 30px;
+	
+}
+
+.five {
+	color: #f38120;
+	font-size: 40px;
+	position: absolute;
+}
+
+hr {
+	width: 90%;
+}
+.menu {
+	background-color: #666666;
+	overflow: hidden;
+}
+
+.menu a {
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.main-content {
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+
+.article {
+	padding-bottom: 30px;
+}
+.sidebar-links {
+	width: 25%;
+	height: 100vh;
+	float: left;
+	background-color: #e5e5e5;
+	
+}
+
+.orange-link {
+	color: #f08533;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.just-orange {
+	color: #f08533;
+	text-decoration: none;
+}
+
+footer {
+    text-align: center;
+	padding-bottom:25px; 
+	padding-top: 25px; 
+	margin-top: 10%; 
+	background-color: #333;
+	color: #fff;
+	clear: both;
+}
